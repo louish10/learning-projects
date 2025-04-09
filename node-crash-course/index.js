@@ -1,4 +1,4 @@
-const { generateRandomNumber, celToFahr} = require('./utils');
+import getPosts, { getPostsLength } from './postController.js';
 
-console.log(`Rand: ${celToFahr(generateRandomNumber())}`);
-
+console.log(getPosts());
+console.log(getPostsLength());
