@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "express": "^5.1.0",
+    "tailwindcss": "^4.1.4"
+  },
+  "scripts": {
+    "tailwind": "npx @tailwindcss/cli -i ./public/input.css -o ./public/stylesheet.css --watch",
+    "serve": "node --watch index.js"
+  }
+}
